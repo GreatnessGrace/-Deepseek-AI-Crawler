@@ -20,7 +20,7 @@ load_dotenv()
 # Get token from environment variable
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 
-BASE_URL = "https://api.github.com/search/code?q=APT41+IOC"
+BASE_URL = "https://api.github.com/search/code?q=APT41+IOC+India"
 HEADERS = {
     "Accept": "application/vnd.github.v3+json",
     "Authorization": f"token {GITHUB_TOKEN}",
